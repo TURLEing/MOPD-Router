@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "unlabeled_1.7B": {
+      "standard_mopd": {"path": "/path/to/unlabeled_1.7b/standard_mopd", "expected_overall": 36.33},
+      "mean": {"path": "/path/to/unlabeled_1.7b/mean", "expected_overall": 34.49},
+      "expert_delta": {"path": "/path/to/unlabeled_1.7b/expert_delta", "expected_overall": 38.58}
+    },
+    "unlabeled_4B": {
+      "standard_mopd": {"path": "/path/to/unlabeled_4b/standard_mopd", "expected_overall": 48.76},
+      "mean": {"path": "/path/to/unlabeled_4b/mean", "expected_overall": 47.88},
+      "expert_delta": {"path": "/path/to/unlabeled_4b/expert_delta", "expected_overall": 53.30}
+    },
+    "labeled_1.7B": {
+      "standard_mopd": {"path": "/path/to/labeled_1.7b/standard_mopd", "expected_overall": 37.52},
+      "mean": {"path": "/path/to/labeled_1.7b/mean", "expected_overall": 35.78},
+      "expert_delta": {"path": "/path/to/labeled_1.7b/expert_delta", "expected_overall": 40.19}
+    },
+    "labeled_4B": {
+      "standard_mopd": {"path": "/path/to/labeled_4b/standard_mopd", "expected_overall": 50.63},
+      "mean": {"path": "/path/to/labeled_4b/mean", "expected_overall": 48.16},
+      "expert_delta": {"path": "/path/to/labeled_4b/expert_delta", "expected_overall": 54.58}
+    }
+  }
+}

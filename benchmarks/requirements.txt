@@ -1,0 +1,28 @@
+# Unified dependencies for tools/evaluate_checkpoint.py.
+# Install from the G-OPD repository root:
+#   python -m pip install -r benchmarks/requirements.txt
+
+# Local benchmark implementations and the checkpoint merger.
+# -e ./verl[vllm,math]
+
+# EvalPlus is imported directly from its vendored source tree. Installing it
+# editable fails when this repository is distributed without its nested .git
+# metadata, so install only its runtime dependencies here.
+-r code_eval/coding/evalplus/requirements.txt
+
+# LiveCodeBench is also executed from its vendored source tree.
+pebble>=5.1.0
+
+# Instruction-following rule verifiers.
+-r instruction_following_eval/requirements.txt
+-r IFBench/requirements.txt
+
+# Keep the FSDP merger compatible with this verl checkout.
+tensordict>=0.8.0,<=0.10.0,!=0.9.0
+safetensors
+sentencepiece
+
+# DeepSpeed is optional for evaluation, but accelerate imports an installed
+# DeepSpeed package while unwrapping models. hjson prevents a partially
+# installed DeepSpeed in the environment from breaking checkpoint export.
+hjson
