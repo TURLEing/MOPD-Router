@@ -2,7 +2,7 @@
 
 <h2> MOPD-Router: Rethinking Teacher Routing in<br>Multi-Teacher On-Policy Distillation </h2>
 
-<!-- [![Paper](https://img.shields.io/badge/paper-5f16a8?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.02795) -->
+[![Paper](https://img.shields.io/badge/paper-5f16a8?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.30837)
 <!-- [![Huggingface](https://img.shields.io/badge/HuggingFace-f1a72c?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/papers/2604.02795) -->
 
 A label-free, token-level teacher-routing framework for multi-teacher on-policy distillation.
@@ -215,7 +215,17 @@ The release contains the prepared training and validation data used by the publi
 
 ## Citation
 
-To be added.
+```
+@misc{xu2026mopdrouterrethinkingteacherrouting,
+      title={MOPD-Router: Rethinking Teacher Routing in Multi-Teacher On-Policy Distillation}, 
+      author={Tianze Xu and Yanzhao Zheng and Zhentao Zhang and Yuanqiang Yu and Chao Ma and Jihuai Zhu and Lelun Wu and Lyumanshan Ye and Pengfei Liu and Baohua Dong and Hangcheng Zhu and Ruohui Huang and Gang Yu},
+      year={2026},
+      eprint={2609.30837},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.30837}, 
+}
+```
 
 ## Acknowledgements
 
