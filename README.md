@@ -230,5 +230,3 @@ The release contains the prepared training and validation data used by the publi
 ## Acknowledgements
 
 This codebase builds on [G-OPD](https://github.com/RUCBM/G-OPD) and its vendored [verl](https://github.com/volcengine/verl) v0.6.1 training stack. We thank their authors and the developers of the included evaluation suites.
-
-The root project is released under the [MIT License](./LICENSE). Vendored components retain their own licenses and copyright notices.
